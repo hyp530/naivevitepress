@@ -1,16 +1,16 @@
 # Naive n-list examples
 
-## Vite dev正确显示：
+## 第1种情况：Vite dev正确显示：
 
 <n-list>
     <n-list-item>
-        Item 1
+        Text 1
     </n-list-item>
     <n-list-item>
-        Item 2
+        Text 2
     </n-list-item>
 </n-list>
 
-## Vite build错误显示：
+## 第2种情况：Vite build错误显示：
 
-<MyList />
+<MyList item1="Text1" item2="Text2" />
