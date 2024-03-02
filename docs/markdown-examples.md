@@ -1,9 +1,9 @@
 # Naive n-list examples
 
-## 第1种情况：Vite dev正确显示：
+## Component Example I - the correct style:
 
 <MyList />
 
-## 第2种情况：Vite build错误显示：
+## Component Example II - wrong style under Vite Build:
 
 <MyList2 item1="Text1" item2="Text2" />
